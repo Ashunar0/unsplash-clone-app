@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import Title from "./components/Title";
 import Form from "./components/Form";
 import Images from "./components/Images";
 
@@ -29,7 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <Title />
+      <h1>Unsplash Clone App</h1>
       <Form setWord={setWord} onSubmit={handleSubmit} />
       <Images photos={photos} />
     </div>
